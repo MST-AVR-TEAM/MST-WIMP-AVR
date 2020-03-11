@@ -1578,7 +1578,7 @@ lang=EN style='font-size:20.0pt;line-height:115%;font-family:"Times New Roman",s
  Arial;color:windowtext;mso-ansi-language:EN'><w:sdtPr></w:sdtPr></span></p>
  <p class=MsoToc1 style='tab-stops:right dotted 467.5pt'><!--[if supportFields]><span
  lang=EN><span style='mso-element:field-begin'></span><span
- style='mso-spacerun:yes'> </span>TOC \o &quot;1-3&quot; \h \z \u <span
+ style='mso-spacerun:yes'>Â </span>TOC \o &quot;1-3&quot; \h \z \u <span
  style='mso-element:field-separator'></span></span><![endif]--><span lang=EN><a
  href="#_Toc34589205"><span style='mso-no-proof:yes'>Design Methodology</span><span
  style='color:windowtext;display:none;mso-hide:screen;mso-no-proof:yes;
@@ -1857,8 +1857,8 @@ lang=EN style='font-family:"Times New Roman",serif;mso-fareast-font-family:
 "Times New Roman"'>Figure 1: WIMPAVR instruction set. The instruction set is
 similar to the WIMP51 instruction set. But, each instruction is a 16-bit
 instruction. The machine codes are from the actual AVR microprocessor
-instruction set. <span style='mso-spacerun:yes'> </span><span
-style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+instruction set. <span style='mso-spacerun:yes'>Â </span><span
+style='mso-spacerun:yes'>Â </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt;
 font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
@@ -1885,7 +1885,7 @@ contains two ALUs, one to manipulate data and another to control the Program
 Counter (PC). The Data Router (DR) allows the routing of 8-bit data from the
 source to the destination depending on the executed instruction. The State
 Machine (SM) and the Control Unit (CU) work together to generate the different
-enable signals required to control the processor’s operation. Each unit, in the
+enable signals required to control the processorÂ’s operation. Each unit, in the
 block diagram, is composed of subsystems of digital logic circuits that process
 inputs depending on the executed instruction. <o:p></o:p></span></p>
 
@@ -1931,7 +1931,7 @@ content or allow new information to enter the memory element, and is based on a
 2:1 multiplexer. This 1-bit memory element is used to implement multiple
 components such 8-bit internal data registers, 16-bit Instruction Register (IR)
 and Program Counter (PC) and the different flags seen in Figure 2. <span
-style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+style='mso-spacerun:yes'>Â </span><o:p></o:p></span></p>
 
 <span lang=EN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
 mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN;mso-fareast-language:
@@ -1957,13 +1957,13 @@ instruction and if the branch condition, if any, is not satisfied, the processor
 stays in the fetch/execute state. If the branch condition is satisfied, the
 processor moves back to the build state to rebuild the pipeline, in which it
 fetches an instruction from the branch location and incurs a branch penalty,
-which in turn is for one clock cycle.<span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+which in turn is for one clock cycle.<span style='mso-spacerun:yes'>Â  </span><o:p></o:p></span></p>
 
 <h2><a name="_Toc34589207"><span lang=EN>State Machine</span></a><span
 style='mso-bookmark:_Toc34589207'></span><span lang=EN style='font-weight:normal'><o:p></o:p></span></h2>
 
 <p class=MsoNormal style='line-height:normal'><span lang=EN style='font-size:
-12.0pt;font-family:"Times New Roman",serif'><span style='mso-tab-count:1'>            </span>The
+12.0pt;font-family:"Times New Roman",serif'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>The
 AVR processor has two basic states. Therefore, only one state bit is needed for
 the state machine. In order to facilitate the processor creation and simplify
 its understanding, two additional states were incorporated. Of these four
@@ -2027,18 +2027,18 @@ minor-fareast'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:normal'><span lang=EN style='font-size:
 12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:minor-fareast'><span style='mso-tab-count:1'>            </span>Three
+mso-fareast-theme-font:minor-fareast'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Three
 state bits, to represent 4 states, were chosen to ease the design of control
-signals. <span style='mso-spacerun:yes'> </span></span><span lang=EN
+signals. <span style='mso-spacerun:yes'>Â </span></span><span lang=EN
 style='font-size:12.0pt;font-family:"Times New Roman",serif'><span
-style='mso-spacerun:yes'> </span></span><b style='mso-bidi-font-weight:normal'><span
+style='mso-spacerun:yes'>Â </span></span><b style='mso-bidi-font-weight:normal'><span
 lang=EN style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
 "Times New Roman";mso-fareast-theme-font:minor-fareast'><o:p></o:p></span></b></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;line-height:normal;
 mso-list:l4 level1 lfo1'><![if !supportLists]><span lang=EN style='font-size:
 12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b style='mso-bidi-font-weight:normal'><i
 style='mso-bidi-font-style:normal'><span lang=EN style='font-size:12.0pt;
 font-family:"Times New Roman",serif'>Idle State (000)</span></i></b><span
@@ -2056,7 +2056,7 @@ normal'><i style='mso-bidi-font-style:normal'><o:p></o:p></i></b></span></p>
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
 mso-list:l4 level1 lfo1'><![if !supportLists]><span lang=EN style='font-size:
 12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b style='mso-bidi-font-weight:normal'><i
 style='mso-bidi-font-style:normal'><span lang=EN style='font-size:12.0pt;
 font-family:"Times New Roman",serif'>Build State (001)</span></i></b><span
@@ -2074,7 +2074,7 @@ be in the build state for consecutive clock cycles. <o:p></o:p></span></p>
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
 mso-list:l4 level1 lfo1'><![if !supportLists]><span lang=EN style='font-size:
 12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b style='mso-bidi-font-weight:normal'><i
 style='mso-bidi-font-style:normal'><span lang=EN style='font-size:12.0pt;
 font-family:"Times New Roman",serif'>Fetch/Execute (011)</span></i></b><span
@@ -2083,7 +2083,7 @@ state machine will transition to the Fetch/Execute state after the Build state
 as long as the master switch remains on. In the Fetch/Execute state, the instruction,
 loaded in the IR, is executed. The CU generates the necessary control signals
 to allow the data path components to execute the current instruction. <span
-style='mso-spacerun:yes'> </span>In addition, </span><span lang=EN
+style='mso-spacerun:yes'>Â </span>In addition, </span><span lang=EN
 style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
 "Times New Roman";mso-fareast-theme-font:minor-fareast'>the processor will
 fetch the next instruction at the updated PC address from the previous state. Depending
@@ -2153,7 +2153,7 @@ font-family:"Times New Roman",serif'><o:p></o:p></span></p>
 <p class=MsoListParagraph style='text-indent:-.25in;line-height:normal;
 mso-list:l4 level1 lfo1'><![if !supportLists]><span lang=EN style='font-size:
 12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b style='mso-bidi-font-weight:normal'><i
 style='mso-bidi-font-style:normal'><span lang=EN style='font-size:12.0pt;
 font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
@@ -2199,7 +2199,7 @@ Branch State operates exactly the same as the Build state. The processor will
 always return to the Fetch/Execute state after the Rebuild state. It is impossible
 to remain in the branch state for consecutive clock cycles. Figure 6, also,
 demonstrates the concept of branch penalty encountered in pipelined systems,
-and for WIMPAVR </span><span lang=EN style='font-size:12.0pt;font-family:"Times New Roman",serif'>processor’s
+and for WIMPAVR </span><span lang=EN style='font-size:12.0pt;font-family:"Times New Roman",serif'>processorÂ’s
 2 stage pipeline the branch penalty is one clock cycle.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:.5in;line-height:normal'><span lang=EN
@@ -2327,7 +2327,7 @@ lang=EN style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal style='text-indent:.5in;line-height:normal'><span lang=EN
 style='font-size:12.0pt;font-family:"Times New Roman",serif'>The destination is
-always one of the “ddddd” registers defined in the opcode mentioned in Figure 1</span><span
+always one of the Â“dddddÂ” registers defined in the opcode mentioned in Figure 1</span><span
 lang=EN style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
 "Times New Roman";mso-fareast-theme-font:minor-fareast'>. One notable
 difference, as seen in the opcodes mentioned in Figure 1, is that LDI allows
@@ -2387,15 +2387,15 @@ mso-fareast-theme-font:minor-fareast'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal style='text-indent:.5in;line-height:normal'><span lang=EN
 style='font-size:12.0pt;font-family:"Times New Roman",serif'>Move instructions
-do not use the ALU, and move data from a source register defined by “rrrrr” to
-a destination register “ddddd”. The WIMPAVR has only one type of MOV
+do not use the ALU, and move data from a source register defined by Â“rrrrrÂ” to
+a destination register Â“dddddÂ”. The WIMPAVR has only one type of MOV
 instruction as seen in Figure 1.</span><span lang=EN style='font-size:12.0pt;
 font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
 mso-fareast-theme-font:minor-fareast'> Load instructions store immediate data,
-located in the instruction itself, into a destination register “ddddd” without
+located in the instruction itself, into a destination register Â“dddddÂ” without
 using the ALU or a source register. The WIMP AVR has only one type of load
 instruction that can only load data to registers 16-31. <span
-style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+style='mso-spacerun:yes'>Â </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='line-height:normal'><span lang=EN style='font-size:
 12.0pt;font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
@@ -2446,7 +2446,7 @@ update sub-system. <o:p></o:p></span></p>
 <p class=MsoNormal style='text-indent:.5in;line-height:normal'><span lang=EN
 style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
 "Times New Roman";mso-fareast-theme-font:minor-fareast'>These instructions
-operate on a designed 32×8 register file. </span><span lang=EN
+operate on a designed 32Ã—8 register file. </span><span lang=EN
 style='font-size:12.0pt;font-family:"Times New Roman",serif'>All data is stored
 in the register file, and ALU operations can only be performed on data stored
 in this register file</span><span lang=EN style='font-size:12.0pt;font-family:
@@ -2469,7 +2469,7 @@ mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast'>
 
 <p class=MsoNormal align=center style='text-align:center;line-height:normal'><span
 lang=EN style='font-family:"Times New Roman",serif;mso-fareast-font-family:
-"Times New Roman";mso-fareast-theme-font:minor-fareast'>Figure 12: The 32×8
+"Times New Roman";mso-fareast-theme-font:minor-fareast'>Figure 12: The 32Ã—8
 register file block diagram.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center;line-height:normal'><span
@@ -2478,8 +2478,8 @@ lang=EN style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-
 
 <p class=MsoNormal style='line-height:normal'><span lang=EN style='font-size:
 12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
-mso-fareast-theme-font:minor-fareast'><span style='mso-tab-count:1'>            </span>The
-destination address “ddddd” allows the program to write to one of the 32
+mso-fareast-theme-font:minor-fareast'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>The
+destination address Â“dddddÂ” allows the program to write to one of the 32
 registers. The two 8-bit 32:1 MUX, shown in Figure 12, allows the processor to
 access data from two registers at a time, </span><span lang=EN
 style='font-size:12.0pt;font-family:"Times New Roman",serif'>using two 5-bit
@@ -2494,7 +2494,7 @@ mso-ansi-language:EN;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><v:shap
   o:title="" chromakey="white"/>
 </v:shape></span><![endif]><span lang=EN style='font-size:12.0pt;font-family:
 "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-minor-fareast'><span style='mso-spacerun:yes'> </span>and another to identify the
+minor-fareast'><span style='mso-spacerun:yes'>Â </span>and another to identify the
 destination register </span><!--[if gte msEquation 12]><m:oMath><span lang=EN
  style='font-size:12.0pt;font-family:"Cambria Math",serif;mso-fareast-font-family:
  "Times New Roman";mso-fareast-theme-font:minor-fareast;mso-bidi-font-family:
@@ -2509,7 +2509,7 @@ mso-ansi-language:EN;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><v:shap
 "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
 minor-fareast'>. A designer can modify the block by adding more MUX blocks to
 access multiple register as required. This facility allows a designer to modify
-the processor relatively easily.<span style='mso-spacerun:yes'>  </span>Non-ALU
+the processor relatively easily.<span style='mso-spacerun:yes'>Â  </span>Non-ALU
 and data transfer instructions cause the registers to stay in a hold state by
 using the self-loop feature incorporated for all registers. <o:p></o:p></span></p>
 
@@ -2550,7 +2550,7 @@ operation<o:p></o:p></span></p>
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;line-height:normal;
 mso-list:l3 level1 lfo2'><![if !supportLists]><span lang=EN style='font-size:
 12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
 font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>Seven-Segment
 Display (SSD) controls: The Altera (now Intel) FPGA board is limited to 8 SSDs
@@ -2608,11 +2608,11 @@ multiplexed using switches SW4-SW0 <o:p></o:p></span></p>
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
 mso-list:l3 level1 lfo2'><![if !supportLists]><span lang=EN style='font-size:
 12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
 font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>Clock
 control system. This system is used to control the clock speed of the microprocessor.
-One of the FPGA board’s in-built clock sources, 50 MHz clock speed, was slowed
+One of the FPGA boardÂ’s in-built clock sources, 50 MHz clock speed, was slowed
 down significantly to allow humans to observe the operation of the
 microprocessor. Figure 14 shows the block diagram of the clock control
 sub-system.<o:p></o:p></span></p>
@@ -2650,7 +2650,7 @@ controlled using the clock control switch SW16 and SW15 as seen in Figure 13.<o:
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
 mso-list:l1 level1 lfo3'><![if !supportLists]><span lang=EN style='font-size:
 12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
 font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>Master
 switch and Reset: SW17 is used to either run the processor (on position) or
@@ -2661,7 +2661,7 @@ not erase the program memory. <o:p></o:p></span></p>
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
 mso-list:l1 level1 lfo3'><![if !supportLists]><span lang=EN style='font-size:
 12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
 font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>LED
 data: LEDs, as seen in Figure 13, are used to display the Z and C flags, the
@@ -2721,7 +2721,7 @@ mso-list:l2 level1 lfo5'><![if !supportLists]><span lang=EN style='font-size:
 style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
 font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>Setup
-the program memory address using the switches SW15 – SW0. <o:p></o:p></span></p>
+the program memory address using the switches SW15 Â– SW0. <o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
 mso-list:l2 level1 lfo5'><![if !supportLists]><span lang=EN style='font-size:
@@ -2740,7 +2740,7 @@ style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp
 </span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
 font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'>Setup
 the machine code, as seen in Figure 1, of the instruction, using switches SW15
-– SW0, to be entered at the address set in steps 1 and 2. <o:p></o:p></span></p>
+Â– SW0, to be entered at the address set in steps 1 and 2. <o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
 mso-list:l2 level1 lfo5'><![if !supportLists]><span lang=EN style='font-size:
@@ -2772,14 +2772,14 @@ steps 1 through 5 till all the machine codes have been entered. <o:p></o:p></spa
 
 <p class=MsoNormal style='line-height:normal'><span lang=EN style='font-size:
 12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span
-style='mso-tab-count:1'>            </span>Videos demonstrating the workings of
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Videos demonstrating the workings of
 the processor were created to aid in the dissemination and understanding of the
 processor working and FPGA board features. YouTube videos can be found at:<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;line-height:normal;
 mso-list:l0 level1 lfo6'><![if !supportLists]><span lang=EN style='font-size:
 12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
 font-family:"Times New Roman",serif'>WIMPAVR Introduction: </span><span
 lang=EN><a href="https://www.youtube.com/watch?v=uDD9K1mkM-k"><span
@@ -2789,7 +2789,7 @@ lang=EN style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p></o:p>
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
 mso-list:l0 level1 lfo6'><![if !supportLists]><span lang=EN style='font-size:
 12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
 font-family:"Times New Roman",serif'>WIMPAVR Instruction Set Review: </span><span
 lang=EN><a href="https://www.youtube.com/watch?v=iUUuAPZLTBo"><span
@@ -2799,7 +2799,7 @@ lang=EN style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p></o:p>
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
 mso-list:l0 level1 lfo6'><![if !supportLists]><span lang=EN style='font-size:
 12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
 font-family:"Times New Roman",serif'>WIMPAVR Program Memory Machine Code Upload
 Process: </span><span lang=EN><a
@@ -2810,7 +2810,7 @@ lang=EN style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p></o:p>
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
 mso-list:l0 level1 lfo6'><![if !supportLists]><span lang=EN style='font-size:
 12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
 font-family:"Times New Roman",serif'>WIMPAVR Code Execution Example 1: Simple
 Program: </span><span lang=EN><a
@@ -2822,7 +2822,7 @@ lang=EN style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p></o:p>
 mso-list:l0 level1 lfo6'><![if !supportLists]><span class=MsoHyperlink><span
 lang=EN style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:
 Symbol;mso-bidi-font-family:Symbol;color:windowtext;text-decoration:none;
-text-underline:none'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+text-underline:none'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
 font-family:"Times New Roman",serif'>WIMPAVR Code Execution Example 2:
 Conditional Branching: </span><span lang=EN><a
@@ -2834,7 +2834,7 @@ color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></s
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
 mso-list:l0 level1 lfo6'><![if !supportLists]><span lang=EN style='font-family:
 Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
-style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
 font-family:"Times New Roman",serif'>WIMPAVR Code Execution Example 3: 5*3
 Using Repetitive Adding: </span><span lang=EN><a
