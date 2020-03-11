@@ -16,16 +16,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Chau, Justin</o:LastAuthor>
   <o:Revision>2</o:Revision>
-  <o:TotalTime>0</o:TotalTime>
+  <o:TotalTime>1</o:TotalTime>
   <o:LastPrinted>2020-03-09T00:52:00Z</o:LastPrinted>
-  <o:Created>2020-03-11T18:46:00Z</o:Created>
-  <o:LastSaved>2020-03-11T18:46:00Z</o:LastSaved>
+  <o:Created>2020-03-11T18:49:00Z</o:Created>
+  <o:LastSaved>2020-03-11T18:49:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>33</o:Words>
-  <o:Characters>194</o:Characters>
-  <o:Lines>1</o:Lines>
-  <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>226</o:CharactersWithSpaces>
+  <o:Words>203</o:Words>
+  <o:Characters>1161</o:Characters>
+  <o:Lines>9</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1362</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -1569,11 +1569,98 @@ style='font-size:22.0pt;mso-bidi-font-size:48.0pt;line-height:115%;font-family:
 style='font-size:22.0pt;mso-bidi-font-size:48.0pt;line-height:115%;font-family:
 "Times New Roman",serif'>Dr. <span class=SpellE>Dua</span><o:p></o:p></span></p>
 
-<p class=MsoNormal align=center style='text-align:center'><span lang=EN
-style='font-size:18.0pt;mso-bidi-font-size:11.0pt;line-height:115%'><a
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN><a
 href="AVR%20Top%20Level.pdf"><span style='font-size:28.0pt;mso-bidi-font-size:
 20.0pt;line-height:115%;font-family:"Times New Roman",serif'>Click <span
-class=GramE>To</span> Get Started: AVR Top Level</span></a><o:p></o:p></span></p>
+class=GramE>To</span> Get Started: AVR Top Level</span></a></span><span
+class=MsoHyperlink><span lang=EN style='font-size:28.0pt;mso-bidi-font-size:
+20.0pt;line-height:115%;font-family:"Times New Roman",serif'><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+class=MsoHyperlink><span lang=EN style='font-size:28.0pt;mso-bidi-font-size:
+20.0pt;line-height:115%;font-family:"Times New Roman",serif'><o:p><span
+ style='text-decoration:none'>&nbsp;</span></o:p></span></span></p>
+
+<h1><a name="_Toc34589219"><span lang=EN>YouTube Tutorial Videos</span></a><span
+lang=EN><o:p></o:p></span></h1>
+
+<p class=MsoNormal style='line-height:normal'><span lang=EN style='font-size:
+12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span
+style='mso-tab-count:1'>            </span>Videos demonstrating the workings of
+the processor were created to aid in the dissemination and understanding of the
+processor working and FPGA board features. YouTube videos can be found at:<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;line-height:normal;
+mso-list:l0 level1 lfo6'><![if !supportLists]><span lang=EN style='font-size:
+12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>WIMPAVR Introduction:<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='line-height:normal'><span lang=EN><a
+href="https://www.youtube.com/watch?v=uDD9K1mkM-k"><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>https://www.youtube.com/watch?v=uDD9K1mkM-k</span></a></span><span
+lang=EN style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
+mso-list:l0 level1 lfo6'><![if !supportLists]><span lang=EN style='font-size:
+12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>WIMPAVR Instruction Set Review: <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:.5in;line-height:normal'><span lang=EN><a
+href="https://www.youtube.com/watch?v=iUUuAPZLTBo"><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>https://www.youtube.com/watch?v=iUUuAPZLTBo</span></a></span><span
+lang=EN style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;line-height:normal;
+mso-list:l0 level1 lfo6'><![if !supportLists]><span lang=EN style='font-size:
+12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>WIMPAVR Program Memory Machine Code Upload
+Process: </span><span lang=EN><a
+href="https://www.youtube.com/watch?v=eobcjZ4kyz0"><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>https://www.youtube.com/watch?v=eobcjZ4kyz0</span></a></span><span
+lang=EN style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
+mso-list:l0 level1 lfo6'><![if !supportLists]><span lang=EN style='font-size:
+12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>WIMPAVR Code Execution Example 1: Simple
+Program: </span><span lang=EN><a
+href="https://www.youtube.com/watch?v=Jd8KeFuT1hg"><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>https://www.youtube.com/watch?v=Jd8KeFuT1hg</span></a></span><span
+lang=EN style='font-size:12.0pt;font-family:"Times New Roman",serif'><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;line-height:normal;
+mso-list:l0 level1 lfo6'><![if !supportLists]><span class=MsoHyperlink><span
+lang=EN style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:
+Symbol;mso-bidi-font-family:Symbol;color:windowtext;text-decoration:none;
+text-underline:none'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>WIMPAVR Code Execution Example 2:
+Conditional Branching: </span><span lang=EN><a
+href="https://www.youtube.com/watch?v=MFMkeym_ncU"><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>https://www.youtube.com/watch?v=MFMkeym_ncU</span></a></span><span
+class=MsoHyperlink><span lang=EN style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:windowtext;text-decoration:none;text-underline:none'><o:p></o:p></span></span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;line-height:normal;
+mso-list:l0 level1 lfo6'><![if !supportLists]><span lang=EN style='font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>WIMPAVR Code Execution Example 3: 5*3
+Using Repetitive Adding: </span><span lang=EN><a
+href="https://www.youtube.com/watch?v=FwDAmfwAy4w"><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>https://www.youtube.com/watch?v=FwDAmfwAy4w</span></a><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN
+style='font-size:18.0pt;mso-bidi-font-size:11.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></p>
 
 </div>
 
