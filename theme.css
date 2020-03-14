@@ -70,7 +70,3 @@ h1, .intro, .container.images, .videos {
 	flex-direction: column;
 }
 
-.video {
-	background: url('https://www.spacejam.com/img/bg_stars.jpg');
-	color: #f00;
-}
